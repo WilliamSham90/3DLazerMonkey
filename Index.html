@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Links-->
+<header>
+<link rel="stylesheet" href="site.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="Images/Logo/emblemnew.ico">
+
+<!--Scripts-->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+<script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/codemirror.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/javascript/javascript.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/css/css.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/addon/scroll/simplescrollbars.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/markdown/markdown.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/htmlmixed/htmlmixed.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/xml/xml.js"></script>
+<script defer src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+<script defer src="site.js" asp-append-version="true"></script>
+<!--title-->
+<title>Home</title>
+
+</header>
+<!--Nav-->
+<body style="width: 100%; height: 100%; margin: 0px; padding: 0px;">
+<div class="ContainerTop">
+    <canvas class="background"></canvas>
+    <div class="TextTopContianer">
+        <h1>3DLazerMonkey</h1>
+        <h3 class="span loader">
+            <span class="m">3</span>
+            <span class="m">D</span>
+            <span class="m">-</span>
+            <span class="m">P</span>
+            <span class="m">R</span>
+            <span class="m">I</span>
+            <span class="m">N</span>
+            <span class="m">T</span>
+            <span class="m">I</span>
+            <span class="m">N</span>
+            <span class="m">G</span>
+            <span class="m">&nbsp;</span>
+            <span class="m">A</span>
+            <span class="m">N</span>
+            <span class="m">D</span>
+            <span class="m">&nbsp;</span>
+            <span class="m">L</span>
+            <span class="m">A</span>
+            <span class="m">S</span>
+            <span class="m">E</span>
+            <span class="m">R</span>
+            <span class="m">-</span>
+            <span class="m">E</span>
+            <span class="m">N</span>
+            <span class="m">G</span>
+            <span class="m">R</span>
+            <span class="m">A</span>
+            <span class="m">V</span>
+            <span class="m">I</span>
+            <span class="m">N</span>
+            <span class="m">G</span>
+        </h3>
+    </div>
+
+    <div class="nav-container">
+        <a class="nav-tab" href="#">Home</a>
+        <a class="nav-tab" href="#Printing">3D-PRINTS</a>
+        <a class="nav-tab" href="#Lazer-Engraving">LASER</a>
+        <a class="nav-tab" href="#About">ABOUT</a>
+        <a class="nav-tab" href="#Contact">CONTACT</a>
+        <span class="nav-tab-slider"></span>
+
+    </div>
+
+</div>
+
+
+<!--Body-->
+<!--3D-Printing-->
+
+<div class="ContentContainer" id="Printing">
+    <a href="https://wa.me/+27711069881" class="whatsapp-button" target="_blank" style="position: fixed;  right: 30px; bottom: 30px; z-index: 999;">
+        <img class="Whatappimage" src="Images/Logo/Whatapp Logo.png" alt="3D Lazer monkey Whatsapp">
+      </a>
+    <div class="TextHeadingBox"><h1>3D-Printing</h1></div>
+    <div class="TextInfo"><h2> 3D-Print's Gallery</h2></div>
+    <!-- Slideshow container -->
+    <div class="slider" id="slider1">
+        <!-- Slides -->
+        <div class="img3D01">
+            <!-- Title Bar -->
+            <span class="titleBar">
+                <h4>This Slider has all default settings.</h4>
+            </span>
+        </div>
+        <div class="img3D02">
+            <!-- Title Bar -->
+            <span class="titleBar">
+                <h4>Hello.</h4>
+            </span>
+        </div>
+        <div class="img3D03">
+            <!-- Title Bar -->
+            <span class="titleBar">
+                <h4>William</h4>
+            </span>
+        </div>
+        <div class="img3D04">
+            <!-- Title Bar -->
+            <span class="titleBar">
+                <h4>you</h4>
+            </span>
+        </div>
+        <div class="img3D05">
+            <!-- Title Bar -->
+            <span class="titleBar">
+                <h4>Rock</h4>
+            </span>
+        </div>
+        <!-- The Arrows -->
+        <i class="left arrows" style="z-index:2; position:absolute;">
+            <svg viewBox="0 0 100 100">
+                <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"></path>
+            </svg>
+        </i>
+        <i class="right arrows" style="z-index:2; position:absolute;">
+            <svg viewBox="0 0 100 100">
+                <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180) "></path>
+            </svg>
+        </i>
+
+    </div>
+    <br>
+    <div style="width: 100%; height: auto; display: flex; justify-content: center; flex-wrap: nowrap; padding-top: 5%;">
+    <div class="card">
+        <h3 style="font-size: 40px;">Please feel free to look at this video</h3>
+    </br>
+</br>
+        <iframe width="660" height="415" src="https://www.youtube.com/embed/Kb0egLiolbo?si=9Svbm8VRzd80Fxbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+    </br>
+</br>
+        <p style="font-size: 30px;">3D printing is a process in which a digital model is turned into a tangible, solid, three-dimensional object, usually by laying down many successive, 
+            thin layers of a material. 3D printing has become popular so quickly because it makes manufacturing accessible to more people than ever before. </p>   
+          
+        </br>
+    </br>
+    <h3 style="font-size: 40px;">What sorts of things can be made with 3D printers?</h3>
+</br>
+<p style="font-size: 30px;">  Nearly anything you can imagine can be turned into a design that can be 3D printed. 3D printers are helping designers, engineers, and even everyday people create complex objects in ways previous manufacturing methods weren’t capable of.
+        3D printers are being used to create toys, phone cases, tools, clothing, tables, lamps, pottery, art, and even cars.</p>
+
+</div>
+</div>
+</div>
+
+<!--3D Printer animation-->
+<div class="ContentContainer" id="particles-js">
+    <div  style="width: 100%;height: 100%; padding-top: 10%; padding-bottom: 10%; background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url(Images/Logo/3D\ Print.jpg) ; background-attachment: fixed; box-shadow: inset 0 0 0 50vw rgba(0, 0, 0, 0.4);">
+    <div class="TextHeadingBox" style="background-color: #FFFFFF00 !important;"><h1 style="font-size:2.5vw">3D-Print's Made with LOVE</h1></div>
+    <svg viewbox="0 0 120 120" style="height: 20vw; position: relative; border-radius: 20px; border: 2vw solid #333; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;">
+        <defs>
+            <clipPath id="fade-cut-out">
+                <path d="M 95 65 L 60 100 L 25 65 A 25 25 90 0 1 60 29 A 25 25 90 0 1 95 65 Z" />
+            </clipPath>
+        </defs>
+        <path class="f" d="M 57 100 H 63 V 98 H 55 V 96 H 67 V 94 H 51 V 92 H 71 V 90 H 47 V 88 H 75 V 86 H 43 V 84 H 79 V 82 H 39 V 80 H 83 V 78 H 35 V 76 H 87 V 74 H 31 V 72 H 91 V 70 H 27 V 68 H 95 V 66 H 23 V 64 H 99 V 62 H 20 V 60 H 101 V 58 H 18 V 56 H 103 V 54 H 17 V 52 H 103 V 50 H 17 V 48 H 103 V 46 H 17 V 44 H 103 V 42 H 17 V 40 H 103 V 38 H 18 V 36 H 101 V 34 H 20 V 32 H 99 V 30 H 23 V 28 H 95 V 26 H 27 V 24 H 89 V 22 H 31" fill="none" stroke="red" stroke-width="2" stroke-dasharray="2520" stroke-dashoffset="2520" clip-path="url(#fade-cut-out)">
+            <animate attributeName="stroke-dashoffset" dur="30s" values="2520; 0" repeatCount="indefinite" />
+        </path>
+
+        <path d="M-5 -11 H 5 L 1 -1 H -1Z" fill="silver">
+            <animateMotion dur="30s" repeatCount="indefinite" path="M 57 100 H 63 V 98 H 55 V 96 H 67 V 94 H 51 V 92 H 71 V 90 H 47 V 88 H 75 V 86 H 43 V 84 H 79 V 82 H 39 V 80 H 83 V 78 H 35 V 76 H 87 V 74 H 31 V 72 H 91 V 70 H 27 V 68 H 95 V 66 H 23 V 64 H 99 V 62 H 20 V 60 H 101 V 58 H 18 V 56 H 103 V 54 H 17 V 52 H 103 V 50 H 17 V 48 H 103 V 46 H 17 V 44 H 103 V 42 H 17 V 40 H 103 V 38 H 18 V 36 H 101 V 34 H 20 V 32 H 99 V 30 H 23 V 28 H 95 V 26 H 27 V 24 H 89 V 22 H 31" />
+        </path>
+        <path d="M -13 -11 H 13 V -28 H -13 Z" fill="#333">
+            <animateMotion dur="30s" repeatCount="indefinite" path="M 57 100 H 63 V 98 H 55 V 96 H 67 V 94 H 51 V 92 H 71 V 90 H 47 V 88 H 75 V 86 H 43 V 84 H 79 V 82 H 39 V 80 H 83 V 78 H 35 V 76 H 87 V 74 H 31 V 72 H 91 V 70 H 27 V 68 H 95 V 66 H 23 V 64 H 99 V 62 H 20 V 60 H 101 V 58 H 18 V 56 H 103 V 54 H 17 V 52 H 103 V 50 H 17 V 48 H 103 V 46 H 17 V 44 H 103 V 42 H 17 V 40 H 103 V 38 H 18 V 36 H 101 V 34 H 20 V 32 H 99 V 30 H 23 V 28 H 95 V 26 H 27 V 24 H 89 V 22 H 31" />
+        </path>
+        <path d="M -13 -11 H 13 V -28 H -13 Z M -120 -28 H 120 V -36 H -120 Z" fill="#555">
+            <animateMotion dur="30s" repeatCount="indefinite" path="M 57 100 H 63 V 98 H 55 V 96 H 67 V 94 H 51 V 92 H 71 V 90 H 47 V 88 H 75 V 86 H 43 V 84 H 79 V 82 H 39 V 80 H 83 V 78 H 35 V 76 H 87 V 74 H 31 V 72 H 91 V 70 H 27 V 68 H 95 V 66 H 23 V 64 H 99 V 62 H 20 V 60 H 101 V 58 H 18 V 56 H 103 V 54 H 17 V 52 H 103 V 50 H 17 V 48 H 103 V 46 H 17 V 44 H 103 V 42 H 17 V 40 H 103 V 38 H 18 V 36 H 101 V 34 H 20 V 32 H 99 V 30 H 23 V 28 H 95 V 26 H 27 V 24 H 89 V 22 H 31" />
+        </path>
+    </svg>
+    </div>
+</div>
+
+<!--Lazer-engraving-->
+<div class="ContentContainer" id="Lazer-Engraving">
+    <div class="TextHeadingBox"><h1>Laser-Engraving</h1></div>
+    <div class="TextInfo"><h2> Laser-Engraving Gallery</h2></div>
+    <!-- Slideshow container -->
+    <div class="slider" id="slider2">
+        <!-- Slides -->
+        <div class="imgLaser01">
+            <!-- Title Bar -->
+            <span class="titleBar">
+                <h4>This Slider has all default settings.</h4>
+            </span>
+        </div>
+        <div class="imgLaser02">
+            <!-- Title Bar -->
+            <span class="titleBar">
+                <h4>Hello.</h4>
+            </span>
+        </div>
+        <div class="imgLaser03">
+            <!-- Title Bar -->
+            <span class="titleBar">
+                <h4>William</h4>
+            </span>
+        </div>
+        <div class="imgLaser04">
+            <!-- Title Bar -->
+            <span class="titleBar">
+                <h4>you</h4>
+            </span>
+        </div>
+        <div class="imgLaser05">
+            <!-- Title Bar -->
+            <span class="titleBar">
+                <h4>Rock</h4>
+            </span>
+        </div>
+        <!-- The Arrows -->
+        <i class="left arrows" style="z-index:2; position:absolute;">
+            <svg viewBox="0 0 100 100">
+                <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"></path>
+            </svg>
+        </i>
+        <i class="right arrows" style="z-index:2; position:absolute;">
+            <svg viewBox="0 0 100 100">
+                <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180) "></path>
+            </svg>
+        </i>
+
+    </div>
+    <br>
+    <div style="width: 100%; height: auto; display: flex; justify-content: center; flex-wrap: nowrap; padding-top: 5%;">
+    <div class="card"> <h3 style="font-size: 40px;">Please feel free to look at this video</h3>
+    </br>
+</br>
+<iframe width="660" height="415" src="https://www.youtube.com/embed/SIjUVCho_xU?si=tvr71_6hTWXmB0ly" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </br>
+</br>
+        <p style="font-size: 30px;">Laser engraving is the most popular laser marking technology in product identification and traceability. It involves using a laser marking machine to make permanent markings on different materials. Laser engraving technology is highly accurate. Consequently, it is the go-to option for marking parts and products in many industries, especially automotive and aeronautics. </p>   
+          
+        </br>
+       
+    </br>
+    <h3 style="font-size: 40px;">What Is Laser Engraving?</h3>
+</br>
+<p style="font-size: 30px;">  The process involves using a laser marking machine which we will call a laser engraving machine, to vaporize specific areas on almost any material. Consequently, it forms permanent markings with higher contrast than the unmarked regions on the part or product.</p>
+<p style="font-size: 30px;"> The process is suitable for marking logos, barcodes, serial numbers, and QR codes on parts. Alongside laser etching, annealing, ablation, and other laser marking technologies, the process forms a set of highly reliable processes in traceability, identification, and product decoration.</p>
+</div>
+</div>
+</div>
+
+
+
+<!--About-->
+<div class="aboutsection" id="About">
+<div class="AboutpageContianer">
+<code class="code-container">
+    <input class="sig" value="#JESUS // 3DLazerMonkey 💜">
+    <div class="glow-container">
+      <div class="augs" data-augmented-ui></div>
+    </div>
+    <section class="augs bg" data-augmented-ui>
+      <button class="dots" onclick="changeMode(this)" title="(click to change) Current Mode: css"></button>
+      <input class="title" value="About">
+      <div class="code highcontrast-dark">
+        <textarea id="code">
+            Welcome to 3DLaserMonkey. 
+
+Your one-stop destination for high-quality 3D printing and laser engraving services.
+            
+We specialize in both custom orders and pre-made items, 
+    providing you with a range of options to suit your unique needs.
+            
+At 3DLaserMonkey, we are passionate about turning your ideas into reality. 
+    Our dedicated team of skilled professionals combines the latest technology 
+    with creative expertise to bring your vision to life. 
+    Whether you have a specific design in mind or need assistance with custom 
+    designing, we are here to help.
+            
+• Custom Orders
+                        
+• Pre-made Items
+
+• Custom Designing
+                        
+• Free Quotes
+            
+• Delivery
+                        
+Thank you for choosing 3DLaserMonkey.    
+        </textarea>
+      </div>
+    </section>
+</code>
+</div>
+</div>
+<!--Contact-->
+<div class="contactUsbigcontianer" style="display: flex; justify-content: center;" id="Contact">
+    <div class="popupboxnew">
+    <div class="ContactContainer">  
+        <div class="ContactContainersmall">
+            <div><i class="fa fa-map-marker" aria-hidden="true" id="ContactIcons"></i></div>
+            <div class="TextInfo" style="background-color: #FFFFFF00; margin-top: 5%; border-radius: 15px;">
+                <p>We are located near Noordheuwel in Krugersdorp </p>
+                
+            </div>
+        </div>
+        <div class="ContactContainersmall">
+            <div><i class="fa fa-phone" aria-hidden="true" id="ContactIcons"></i></div>
+            <div class="TextInfo" style="background-color: #FFFFFF00; margin-top: 5%; border-radius: 15px;">
+                <p>Give us a call:</p>
+                <a href="tel:071-106-9881" style="color: #4aa960;"><p><br>071 106 9881</p></a>
+            </div>
+        </div>
+        <div class="ContactContainersmall">
+            <div><i class="fa fa-envelope" aria-hidden="true" id="ContactIcons"></i></div>
+            <div class="TextInfo" style="background-color: #FFFFFF00; margin-top: 5%; border-radius: 15px;">
+                <p>Email Us:</p>
+                <div style="display: flex; width: 100%; height: auto; flex-wrap: wrap; word-wrap: break-word; justify-content: center;">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=3dLasermonkey@gmail.com" target="_blank" style="color: #4aa960;"><p><br>3dLasermonkey@gmail.com</p></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div class="ContentContainer" style="padding: 0px; display: flex; justify-content: center;">
+    <div class="MapBorder">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7165.869156045039!2d27.810673774571256!3d-26.101054183935243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95991554c49465%3A0x71c86c300037ed47!2sHo%C3%ABrskool%20Noordheuwel!5e0!3m2!1sen!2sza!4v1667240672068!5m2!1sen!2sza" style="border: 0; height: 100%; width: 100%; " allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+</body>
+<!--Footer-->
+<footer class="footer">
+    <div class="footerdiv" style="width: 100%; height: 100%; display: flex; padding: 0%; margin: 0%; justify-content: center; align-content: center; flex-direction: row; align-items: center;">
+    <div class="footerdivchild" style="width: 100%; height: 100%; display: flex; padding: 0%; margin: 0%; justify-content: left; align-content: left; flex-direction: row; padding-left: 5%; align-items: center;" >
+        <a href="#3D-Printing"><img class="Logofooterimage" src="Images/Logo/3dLazerMonkeyLogo.png" alt="3dLazerMonkeyLogo" style="width:250px;height:100px;"></a>
+    </div>
+        <div class="footerdivchild" style="width: 100%; height: 100%; display: flex; padding: 0%; margin: 0%; justify-content: right; align-content: right; flex-direction: row; padding-right: 5%; align-items: center;">
+    <ul class="wrapper">
+        <a href="https://www.facebook.com/profile.php?id=100086299345394">
+        <li class="icon facebook">
+            <span class="tooltip">Facebook</span>
+            <span><i class="fab fa-facebook-f"></i></span>
+        </li>
+        </a>
+        <a href="https://instagram.com/mr_3d_printer69?igshid=YmMyMTA2M2Y=">
+        <li class="icon instagram">
+            <span class="tooltip">Instagram</span>
+            <span><i class="fab fa-instagram"></i></span>
+        </li>
+        </a>
+        <a href="#">
+        <li class="icon youtube">
+            <span class="tooltip">Youtube</span>
+            <span><i class="fab fa-youtube"></i></span>
+        </li></a>
+    </ul>
+    </div>
+</div>
+    <p class="company-name">
+        &copy;3DLazerMonkey 2023. ALL Rights Reserved
+    </p>
+</footer>
+<!--Footer-->
+</html>

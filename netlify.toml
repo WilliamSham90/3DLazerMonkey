@@ -2,3 +2,9 @@
 from = "/*"
 to = "/Error.html"
 status = 404
+
+[build]
+  publish = "public"
+
+[[plugins]]
+  package = "netlify-plugin-gatsby-cache"

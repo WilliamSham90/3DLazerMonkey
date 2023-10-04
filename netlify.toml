@@ -3,3 +3,5 @@ from = "/*"
 to = "Error.html"
 status = 404
 
+  [[plugins]]
+  package = "@netlify/plugin-gatsby"

@@ -1001,7 +1001,7 @@ padding-top: 5%;
 /*Images*/
 /*3D Prints*/
 .img3D01 {
-    background-image: url("Images/3DPrint/Done/Starwars.png");
+    background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Done/Starwars.png");
 }
 .img3D02 {
     background-image: url("https://64.media.tumblr.com/cb0a023bd285e213a338d987540a811c/4cd02ed47e49844a-48/s2048x3072/9efa73261b11fdec217e37438aecdaff0632514a.jpg");
@@ -1010,77 +1010,77 @@ padding-top: 5%;
     background-image: url("https://64.media.tumblr.com/761bdbc0a9b9fce271fcc9e1c09d2698/09f28c83c497865c-43/s1280x1920/8afbc785e72de2836dacd49826b624bf691769cc.pnj");
 }
 .img3D04 {
-    background-image: url("Images/3DPrint/Old/Moonlamp\ 03.jpg");
+    background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Moonlamp\ 03.jpg");
 }
 .img3D05 {
-    background-image: url("Images/3DPrint/Old/Glow\ in\ dark\ dino.jpg");
+    background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Glow\ in\ dark\ dino.jpg");
 }
 
 /*Laser Engraver*/
 
 .imgLaser01 {
-    background-image: url("Images/3DPrint/Old/Woold\ 01.jpg");
+    background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Woold\ 01.jpg");
 }
 
 .imgLaser02 {
-    background-image: url("Images/3DPrint/Old/Wood\ 02.jpg");
+    background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Wood\ 02.jpg");
 }
 
 .imgLaser03 {
-    background-image: url("Images/3DPrint/Old/Woold\ 01.jpg");
+    background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Woold\ 01.jpg");
 }
 
 .imgLaser04 {
-    background-image: url("Images/3DPrint/Old/Wood\ 02.jpg");
+    background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Wood\ 02.jpg");
 }
 
 .imgLaser05 {
-    background-image: url("Images/3DPrint/Old/Woold\ 01.jpg");
+    background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Woold\ 01.jpg");
 }
 
 /*For mobile*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
     /*3D Prints*/
     .img3D01 {
-        background-image: url("Images/3DPrint/Old/Deadpool\ 01.jpg");
+        background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Deadpool\ 01.jpg");
     }
 
     .img3D02 {
-        background-image: url("Images/3DPrint/Old/Bell\ 01.jpg");
+        background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Bell\ 01.jpg");
     }
 
     .img3D03 {
-        background-image: url("Images/3DPrint/Old/cute\ 01.jpg");
+        background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/cute\ 01.jpg");
     }
 
     .img3D04 {
-        background-image: url("Images/3DPrint/Old/Dragon\ 01.jpg");
+        background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Dragon\ 01.jpg");
     }
 
     .img3D05 {
-        background-image: url("Images/3DPrint/Old/Spiderman\ 01.jpg");
+        background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Spiderman\ 01.jpg");
     }
 
     /*Laser Engraver*/
 
     .imgLaser01 {
-        background-image: url("Images/3DPrint/Old/Woold\ 01.jpg");
+        background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Woold\ 01.jpg");
     }
     
     .imgLaser02 {
-        background-image: url("Images/3DPrint/Old/Wood\ 02.jpg");
+        background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Wood\ 02.jpg");
     }
     
     .imgLaser03 {
-        background-image: url("Images/3DPrint/Old/Woold\ 01.jpg");
+        background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Woold\ 01.jpg");
     }
     
     .imgLaser04 {
-        background-image: url("Images/3DPrint/Old/Wood\ 02.jpg");
+        background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Wood\ 02.jpg");
     }
     
     .imgLaser05 {
-        background-image: url("Images/3DPrint/Old/Woold\ 01.jpg");}
+        background-image: url("https://3dlasermonkey.co.za/Images/3DPrint/Old/Woold\ 01.jpg");}
 }
 
 /*what app button*/
